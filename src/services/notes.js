@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'https://fso-part03-backend.onrender.com'
+const baseUrl = 'https://fso-part03-backend.onrender.com/api/notes'
 
 const getAll = () => {
   const request = axios.get(baseUrl)
